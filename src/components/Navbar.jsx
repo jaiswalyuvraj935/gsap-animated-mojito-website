@@ -39,7 +39,7 @@ const Navbar = () => {
 
                 {/* Left Side: Brand Logo */}
                 <a href="#home" className='flex items-center gap-4'>
-                    <img src="/images/logo.png" alt="logo" className="h-14 md:h-10" />
+                    <img src="./images/logo.png" alt="logo" className="h-14 md:h-10" />
                     <p className="text-white font-bold">Velvet Pour</p>
                 </a>
 
