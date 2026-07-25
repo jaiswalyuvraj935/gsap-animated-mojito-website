@@ -5,7 +5,7 @@ import { SplitText } from 'gsap/SplitText';
 
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Section2 from './components/Section2';
+import Cocktails from './components/Cocktails';
 // Register plugins once outside the component
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
@@ -14,7 +14,7 @@ const App = () => {
     <main>
       <Navbar/>
       <Hero/>
-      <div className='h-dvh bg-black'></div>
+      <Cocktails/>
 
     </main>
   );
